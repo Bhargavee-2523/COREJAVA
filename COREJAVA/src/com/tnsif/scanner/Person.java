@@ -1,8 +1,6 @@
 package com.tnsif.scanner;
 
-/**
- * 
- */
+
 public class Person {
 	private String name;
 	private int income;
