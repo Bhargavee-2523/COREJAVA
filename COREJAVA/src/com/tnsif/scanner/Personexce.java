@@ -15,6 +15,6 @@ public class Personexce {
 		Taxcalculation t=new Taxcalculation();
 		t.calculatetax(pp);
 		
-		}
+	}
 
 }
