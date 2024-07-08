@@ -1,10 +1,10 @@
 package com.tnsif.scanner;
 
-
 public class Person {
+	
 	private String name;
 	private int income;
-	private int tax;//data menbers
+	private int tax;          // data members
 	public String getName() {
 		return name;
 	}
@@ -14,6 +14,7 @@ public class Person {
 	public int getIncome() {
 		return income;
 	}
+	
 	public void setIncome(int income) {
 		this.income = income;
 	}
@@ -23,10 +24,11 @@ public class Person {
 	public void setTax(int tax) {
 		this.tax = tax;
 	}
+	
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", income=" + income + ", tax=" + tax + "]";
 	}
-}
 
+}
 
