@@ -16,7 +16,7 @@ public class Student extends Citizen{
 	public int getRollno() {
 		return rollno;
 	}
-	public void setRollno(int roono) {
+	public void setRollno(int rollno) {
 		this.rollno = rollno;
 	}
 	public String getCollegename() {
@@ -27,11 +27,11 @@ public class Student extends Citizen{
 	}
 	@Override
 	public String toString() {
-		return "Student [rollno=" + rollno + ", collegename=" + collegename + "]";
+		return super.toString()+"Student [rollno=" + rollno + ", collegename=" + collegename + "]";
 	}
 	public Student(String name,long adharno,String address,long phno)
 	{
-		super(name,adhar,address,phno);
+		super(name,adharno,address,phno);
 	}
 	
 

@@ -6,10 +6,13 @@ public class Citizen {
 	private long adharno;
 	private String addres;
 	private long phno;
+	
 	public Citizen() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
 	public Citizen(String name, long adharno, String addres, long phno) {
 		super();
 		this.name = name;
@@ -17,6 +20,8 @@ public class Citizen {
 		this.addres = addres;
 		this.phno = phno;
 	}
+
+
 	public String getName() {
 		return name;
 	}

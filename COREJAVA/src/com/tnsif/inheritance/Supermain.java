@@ -5,7 +5,10 @@ public class Supermain {
 		Student s =new Student("rashmi",145673456,"hyd",98765432);
 		System.out.println(s);
 		
-		Student s=new Student();
+		Student s1=new Student(1,"sriindu");
+		System.out.println(s1);
 		}
 
 }
+
+
