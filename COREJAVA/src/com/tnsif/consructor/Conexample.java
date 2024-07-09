@@ -15,11 +15,11 @@ public class Conexample {
 
 	}
 	public static void main(String[] args) {
-		Conexample c1=new Conexample();
-		Conexample c2=new Conexample(6);
-		Conexample c1=new Conexample(8,t);
+		Conexample c=new Conexample();
+		Conexample c1=new Conexample(6);
+		Conexample c2=new Conexample(8,'t');
 		
 	}
 	}
 
-}
+
